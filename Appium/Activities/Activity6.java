@@ -29,8 +29,8 @@ public class Activity6 {
         caps.setCapability("deviceId", "11848566");
         caps.setCapability("platformName", "Android");
         caps.setCapability("automationName", "UiAutomator2");
-        caps.setCapability("appPackage", "com.android.contacts");
-        caps.setCapability("appActivity", ".activities.PeopleActivity");
+        caps.setCapability("appPackage", "com.android.chrome");
+        caps.setCapability("appActivity", "com.google.android.apps.chrome.Main");
         caps.setCapability("noReset", true);
 
         // Instantiate Appium Driver

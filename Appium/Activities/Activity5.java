@@ -27,8 +27,8 @@ public class Activity5 {
         caps.setCapability("deviceId", "11848566");
         caps.setCapability("platformName", "Android");
         caps.setCapability("automationName", "UiAutomator2");
-        caps.setCapability("appPackage", "com.android.contacts");
-        caps.setCapability("appActivity", ".activities.PeopleActivity");
+        caps.setCapability("appPackage", "com.google.android.apps.messaging");
+        caps.setCapability("appActivity", ".ui.ConversationListActivity");
         caps.setCapability("noReset", true);
 
         // Instantiate Appium Driver
